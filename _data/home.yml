@@ -27,7 +27,6 @@ project_entries:
   - title: aVeryPersonalReview
     url: https://jhwq123.github.io/aVeryPersonalReview/
     desc: 개인적인 종합 Review 사이트입니다. 순수 HTML만으로 만들어진 사이트를 구현해보고 싶었습니다.
-    highlight: WIP
 
   - title: Coin Tracker
     url: https://jhwq123.github.io/react-challenges/

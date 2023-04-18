@@ -10,30 +10,33 @@ navbar_entries:
 
 project_entries:
   - title: Momentum Clone
-    url: overview-post
-    desc: This is an example project, configured in _data/home.yml
+    url: https://jhwq123.github.io/jhwq123Clone1.github.io/
+    desc: 크롬앱 Momentum todo list 관리 앱을 따라 만든 프로젝트입니다, HTML, CSS, vanilaJS가 사용되었습니다.
+    highlight: WIP
 
   - title: KakaoTalk Clone
-    url: overview-post
-    desc: Projects are shown in card layout
+    url: https://jhwq123.github.io/jhwq123Clone2.github.io/
+    desc: 카카오톡 UI의 화면전환 및 채팅 시스템을 따라 만든 프로젝트입니다, vanilaJS가 주로 사용되었습니다.
+    highlight: WIP
 
   - title: Netflix Clone
-    url: overview-post
-    desc: You can control visibility from _config.yml file
+    url: https://jhwq123.github.io/nomflix-clones/
+    desc: netflix title 화면을 movie api를 활용해 만들어본 프로젝트입니다, 영상은 제공되지 않습니다.
+    highlight: WIP
 
-  - title: Zoom Clone
-    url: overview-post
-    desc: This project uses highlight markup, configured in _data/home.yml
+  - title: aVeryPersonalReview
+    url: https://jhwq123.github.io/aVeryPersonalReview/
+    desc: 개인적인 종합 Review 사이트입니다. 순수 HTML만으로 만들어진 사이트를 구현해보고 싶었습니다.
+    highlight: WIP
+
+  - title: Coin Tracker
+    url: https://jhwq123.github.io/react-challenges/
+    desc: coinpaprika의 api를 활용해 만든 실시간 코인거래 조회 사이트입니다. 첫 React 프로젝트 입니다.
     highlight: WIP
 
   - title: Youtube Clone
     url: overview-post
-    desc: Moonwalk also has horizontal list (used in header and footer)
-    highlight: WIP
-
-  - title: PrivateReview
-    url: overview-post
-    desc: It also has a scalable vertical list (in case you need it)
+    desc: 이 사이트는 현재 중지되었습니다. (AWS 무료 기간 만료)
 
 old_project_entries:
   - title: Soopr

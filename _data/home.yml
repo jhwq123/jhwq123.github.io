@@ -1,37 +1,37 @@
 navbar_entries:
-  - title: about
+  - title: 이사이트는
     url: about
 
-  - title: blog
+  - title: 재미가
     url: blog
 
-  - title: website
+  - title: 없습니다!
     url: https://www.abhinav.co
 
 project_entries:
-  - title: Project 1
+  - title: Momentum Clone
     url: overview-post
     desc: This is an example project, configured in _data/home.yml
 
-  - title: Project 2
+  - title: KakaoTalk Clone
     url: overview-post
     desc: Projects are shown in card layout
 
-  - title: Project 3
+  - title: Netflix Clone
     url: overview-post
     desc: You can control visibility from _config.yml file
 
-  - title: Project 4
+  - title: Zoom Clone
     url: overview-post
     desc: This project uses highlight markup, configured in _data/home.yml
     highlight: WIP
 
-  - title: Project 5
+  - title: Youtube Clone
     url: overview-post
     desc: Moonwalk also has horizontal list (used in header and footer)
     highlight: WIP
 
-  - title: Project 6
+  - title: PrivateReview
     url: overview-post
     desc: It also has a scalable vertical list (in case you need it)
 

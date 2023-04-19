@@ -1,13 +1,13 @@
 ---
 layout: post
-title: "Language Tests"
+title: "언어 테스트"
 ---
 
-Note: Text is from [moving](https://github.com/huangyz0918/moving), which is another good Jekyll theme.
+Note: 이 텍스트는 [moving](https://github.com/huangyz0918/moving), 또다른 테마임.
 
-### 1. 日本語テスト
+### 1. 일본ㅡ어
 
-This is a Japanese test post to show you how japanese is displayed.
+일본어 잘 나옵네다.
 
 私は昨日ついにその助力家というのの上よりするたなけれ。
 最も今をお話団はちょうどこの前後なかろでくらいに困りがいるたをは帰着考えたなかって、そうにもするでうたらない。
@@ -22,9 +22,9 @@ This is a Japanese test post to show you how japanese is displayed.
 From [すぐ使えるダミーテキスト - 日本語 Lorem ipsum.](http://lipsum.sugutsukaeru.jp/index.cgi) 
 
 
-### 2. 繁体中文测试
+### 2. 쭝국ㅡ어 (간체)
 
-This is a chinese test post to show you how chinese is displayed.
+쭝국어 잘 나옵네다, 간체인지 번체인지 몰?루 아는척해봄.
 
 善我王上魚、產生資西員合兒臉趣論。畫衣生這著爸毛親可時，安程幾？合學作。觀經而作建。都非子作這！法如言子你關！手師也。
 
@@ -40,7 +40,9 @@ From [亂數假文產生器 - Chinese Lorem Ipsum.](http://www.richyli.com/tool/
 
 
 
-### 3. 简体中文测试
+### 3. 쭝ㅡ국어 (번체)
+
+따거 따거
 
 效育声去本义然空，各值太法心想，场强实地。 题铁习点儿表管少间千，只何政亲织文意部，千影画派证男须。 手反取长风治增非等直难群，连取及天他己事头级，影数弦适把气快目人。 专议以省通引而千个，格则口段度样水热马，地教少务改磨。 包思外心半院应她算斯，市外会快记路又火学，劳如肃它准众丧边。
    

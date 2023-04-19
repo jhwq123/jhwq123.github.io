@@ -1,87 +1,91 @@
 ---
 layout: post
-author: Abhinav Saxena
-tags: [overview, moonwalk]
+author: 팔이긴 원숭이
+tags: [tip, preview]
 ---
 
 문워크 홈페이지 건드려보는중~
 
-Lorem ipsum[^1] dolor sit amet, consectetur adipiscing elit. Pellentesque vel lacinia neque. Praesent nulla quam, ullamcorper in sollicitudin ac, molestie sed justo. Cras aliquam, sapien id consectetur accumsan, augue magna faucibus ex, ut ultricies turpis tortor vel ante. In at rutrum tellus.
+참조따는법[^1] 참고 하십쇼.
 
-# Sample heading 1
-## Sample heading 2
-### Sample heading 3
-#### Sample heading 4
-##### Sample heading 5
-###### Sample heading 6
+--- 아래 내용을 쓰면 헤드라인 글자 크기 조절 가능
+# 요란해요 1
+## 요란해요 2
+### 요란해요 3
+#### 요란해요 4
+##### 요란해요 5
+###### 요란하다니까요 6
 
-Mauris viverra dictum ultricies. Vestibulum quis ipsum euismod, facilisis metus sed, varius ipsum. Donec scelerisque lacus libero, eu dignissim sem venenatis at. Etiam id nisl ut lorem gravida euismod.
+미국어도 아닌게 솰라솰라 적혀있음.
 
-## Lists
+## 리스트들
 
-Unordered:
+Unordered: 아래 첨자를 따면 점으로 정렬됨
 
-- Fusce non velit cursus ligula mattis convallis vel at metus[^2].
-- Sed pharetra tellus massa, non elementum eros vulputate non.
-- Suspendisse potenti.
+- A가 B에게 돈을 빌렸다[^2].
+- B가 C에게 돈을 빌렸다.
+- C가 A에게 돈을 빌렸다.
 
-Ordered:
+Ordered: 아래 첨자를 따면 숫자로 정렬됨
 
-1. Quisque arcu felis, laoreet vel accumsan sit amet, fermentum at nunc.
-2. Sed massa quam, auctor in eros quis, porttitor tincidunt orci.
-3. Nulla convallis id sapien ornare viverra.
-4. Nam a est eget ligula pellentesque posuere.
+1. 물을 냄비에 받는다.
+2. 물을 끓인다.
+3. 면, 건더기, 스프 를 넣고 끓인다.
+4. 라면을 먹는다.
 
-## Blockquote
+## 인용구
 
-The following is a blockquote:
+다음은 인용구 입니다.:
 
-> Suspendisse tempus dolor nec risus sodales posuere. Proin dui dui, mollis a consectetur molestie, lobortis vitae tellus.
+> 피할 수 없으면 즐겨야 된다. 근데 되도록이면 죽을힘을 다해 피해야 된다.
 
-## Thematic breaks (<hr>)
+## 주제별 라인화하여 분리시키기 (<hr>)
 
-Mauris viverra dictum ultricies[^3]. Vestibulum quis ipsum euismod, facilisis metus sed, varius ipsum. Donec scelerisque lacus libero, eu dignissim sem venenatis at. Etiam id nisl ut lorem gravida euismod. **You can put some text inside the horizontal rule like so.**
+수평자 넣기임[^3]. **이런식으로 찐한 글자로 블럭처리 가능합니동.**
 
 ---
+이러면 수평자가 들어갑니다.
+
 {: data-content="hr with text"}
 
-Mauris viverra dictum ultricies. Vestibulum quis ipsum euismod, facilisis metus sed, varius ipsum. Donec scelerisque lacus libero, eu dignissim sem venenatis at. Etiam id nisl ut lorem gravida euismod. **Or you can just have an clean horizontal rule.**
-
 ---
+중간에 뭐가 들어갔는데 뭔지 모르겠습니다.
 
-Mauris viverra dictum ultricies. Vestibulum quis ipsum euismod, facilisis metus sed, varius ipsum. Donec scelerisque lacus libero, eu dignissim sem venenatis at. Etiam id nisl ut lorem gravida euismod. Or you can just have an clean horizontal rule.
+## 코드
 
-## Code
-
-Now some code:
+이것은 코드의 일부입니다:
 
 ```
+int i = 5;
+
 const ultimateTruth = 'follow middlepath';
 console.log(ultimateTruth);
 ```
 
-And here is some `inline code`!
+또한 이것을 주목해보십쇼 `블록된 코드`!
 
-## Tables
+## 테이블
 
-Now a table:
+보십시오, 이것은 테이블입니다.:
 
-| Tables        | Are           | Cool  |
-| ------------- |:-------------:| -----:|
-| col 3 is      | right-aligned | $1600 |
-| col 2 is      | centered      |   $12 |
-| zebra stripes | are neat      |    $1 |
+왈도체 처럼 보이는것은 기분탓입니다.
 
-## Images
+| 테이블들			| 입니다.			| 멋지군요		|
+| ------------- |:-------------:| -----:	|
+| 탭으로      	| 조정하면 		| 깔끔 		|
+| 수요일은			| 비가와서			| 꿀꿀해요		|
+| 편의점의			| 우산은			|너무비싸서	|
+
+## 이미지
 
 ![theme logo](http://www.abhinavsaxena.com/images/abhinav.jpeg)
 
-This is an image[^4]
+요거슨 이미지 입니다.[^4]
 
 ---
 {: data-content="footnotes"}
 
-[^1]: this is a footnote. You should reach here if you click on the corresponding superscript number.
-[^2]: hey there, don't forget to read all the footnotes!
-[^3]: this is another footnote.
-[^4]: this is a very very long footnote to test if a very very long footnote brings some problems or not; hope that there are no problems but you know sometimes problems arise from nowhere.
+[^1]: 그냥 꾹 참고 하시라고요.
+[^2]: 신용카드 돌려막기
+[^3]: 수평은 영어로 horizen
+[^4]: 링크로 딸 수 있습니다.

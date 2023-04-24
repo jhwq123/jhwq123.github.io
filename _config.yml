@@ -2,9 +2,13 @@ title: 코드 몽키의 개인 공부공간
 author: Abhinav Saxena
 url: https://www.abhinavsaxena.com/moonwalk # root address of the site
 description: > # description of the site (multiple lines allowed)
-  
-img:
-    src: "./crumb-cat.gif" 
+
+defaults:
+    - scope:
+        path: "./crumb-cat.gif" 
+    values:
+        image: true
+   
   
 permalink: /:slug
 

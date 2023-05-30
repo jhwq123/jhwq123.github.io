@@ -14,6 +14,16 @@ layout: default
   {% endif %}
   
   <img src = "./crumb-cat.gif" width="500">
+  <h1 id = 'clock'>clock</h1>
+  <script>
+	window.onload = function () {
+        var clock = document.getElementById('clock');
+        setInterval(function () {
+            var now = new Date();
+            clock.innerHTML = now.toString();
+        }, 1000);
+    };
+  </script>
 </header>
 
 {{ content }}

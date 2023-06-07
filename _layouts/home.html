@@ -20,7 +20,13 @@ layout: default
         var clock = document.getElementById('clock');
         setInterval(function () {
             var now = new Date();
-            clock.innerHTML = now.toString();
+			var year = now.getFullYear();
+			var month = now.getMonth()+1;
+			var day = now.getDate();
+			var hour = now.getHours();
+			var minute = new.getMinutes();
+            clock.innerHTML = `<h3>${year}년 ${month}월 ${day}일</h3>`;
+			clock.innerHTML += `<h1>${hour} : ${minute}</h1>`;
         }, 1000);
     };
   </script>

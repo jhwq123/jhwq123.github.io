@@ -3,10 +3,10 @@ navbar_entries:
     url: about
 
   - title: 재미가
-    url: blog
+    url: https://www.notion.so/Java-Spring-c483f60ce3e64a67b2efb1d952a201d3
 
   - title: 없습니다!
-    url: https://www.abhinav.co
+    url: https://jhwq123.github.io/Study_Web/
 
 project_entries:
   - title: Momentum Clone

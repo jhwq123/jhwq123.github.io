@@ -14,7 +14,7 @@ layout: default
   {% endif %}
   
   <img src = "./crumb-cat.gif" width="500">
-  <h1 id = 'clock'></h1>
+  <div id="clock" style="width: 500px; height: 300px; border: 3px solid black; border-radius: 30px; background-color: #323945; display: flex; flex-direction: column; justify-content: space-between; align-items: center; margin: 20px auto"></div>
   <script>
 	window.onload = function () {
         var clock = document.getElementById('clock');
@@ -28,7 +28,6 @@ layout: default
 			var second = now.getSeconds();
             clock.innerHTML = `<h3>${year}년 ${month}월 ${day}일</h3>`;
 			clock.innerHTML += `<h1>${hour} : ${minute} : ${second}</h1>`;
-			clock.innerHTML = '<div style="width: 500px; height: 300px; border: 3px solid black; border-radius: 30px; background-color: #323945; display: flex; flex-direction: column; justify-content: space-between; align-items: center; margin: 0 auto">' + clock.innerHTML + '</div>';
         }, 1000);
     };
   </script>

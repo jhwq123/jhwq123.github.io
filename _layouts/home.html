@@ -25,8 +25,10 @@ layout: default
 			var day = now.getDate();
 			var hour = now.getHours();
 			var minute = now.getMinutes();
+			var second = now.getSeconds();
             clock.innerHTML = `<h3>${year}년 ${month}월 ${day}일</h3>`;
-			clock.innerHTML += `<h1>${hour} : ${minute}</h1>`;
+			clock.innerHTML += `<h1>${hour} : ${minute} : ${second}</h1>`;
+			clock.innerHTML = '<div style="width: 500px; height: 600px; border: 3px solid black; border-radius: 30px; background-color: white; display: flex; flex-direction: column; justify-content: space-evenly; align-items: center">' + clock.innerHTML + '</div>';
         }, 1000);
     };
   </script>
